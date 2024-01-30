@@ -1,0 +1,52 @@
+body {
+	background-color: #eee;
+	font-family: "Montserrat", sans-serif;
+	height: 100vh;
+}
+
+/*.app {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}*/
+
+.connection {
+	/*display: flex;*/
+	background-color: #000;
+	color: #fff;
+	/*justify-content: flex-end;*/
+}
+
+.nav {
+	/*display: flex;*/
+	background-color: #eb5152;
+	color: #fff;
+	/*justify-content: space-between;*/
+}
+
+.nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav i.bi {
+	font-size: 32px;
+}
+
+.sidebar {
+	background-color: #fff;
+	width: 256px;
+	height: 100vh;
+} 
+
+.list-group .icon {
+	max-width: 24px;
+}
+
+.list-group .selected {
+	border-right: 3px solid #eb5152;
+}
+
+.main {
+	 flex-grow: 1;
+}
